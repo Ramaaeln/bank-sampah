@@ -1,0 +1,14 @@
+# Dependency
+node_modules/
+be/node_modules/
+
+# Environment Variables (Sangat Penting!)
+.env
+be/.env
+
+# Logs
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
