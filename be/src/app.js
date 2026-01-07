@@ -11,8 +11,6 @@ app.use(cors({
   credentials: false
 }));
 
-// 🔥 INI YANG KURANG
-app.options('*', cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
